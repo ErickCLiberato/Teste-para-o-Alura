@@ -18,8 +18,7 @@ function draw() {
   let distancia;
   distancia = dist(mouseX,mouseY,x,y);
   circle(mouseX, mouseY, distancia);
-  // circle(x, y, 10);
-
+ 
   if (distancia < 5) {
     text("Encontrei!", 200, 200);
     noLoop();
